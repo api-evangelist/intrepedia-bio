@@ -1,8 +1,32 @@
 aid: intrepedia-bio
-name: Intrepedia Bio
-description: Intrepedia Bio is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intrepedia-bio.png
+name: Intrepida Bio
+description: >-
+  Intrepida Bio, Inc. is a preclinical biotechnology company (founded 2019,
+  headquartered in Encinitas / San Diego, CA) developing medicines that modulate
+  the innate immune system to fight cancer and other diseases. Working with
+  Biouniversa s.r.l., the company holds worldwide rights to develop proprietary
+  monoclonal antibodies against the novel targets BAG3 and its receptor IFITM-2 —
+  a signaling axis tumors hijack to build a growth-promoting, immune-evasive
+  microenvironment (notably in pancreatic ductal adenocarcinoma, PDAC). Intrepida
+  raised roughly $9.5M from Canaan, Sofinnova, Indaco Venture Partners and Vertis
+  to fund IND-enabling studies of its lead oncology program. It was surfaced as a
+  portfolio company of canaan-partners and added to the API Evangelist network as
+  a stub. NOTE: this is a therapeutics/drug-discovery company with no public API,
+  developer portal, or software product surface; its website (intrepidabio.com) no
+  longer resolves and the entity appears dormant/defunct, so no API artifacts
+  apply.
 url: https://raw.githubusercontent.com/api-evangelist/intrepedia-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +34,54 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: Biotechnology
+x-sub-industry: Immuno-oncology
+x-founded: '2019'
+x-headquarters: Encinitas, San Diego, CA, USA
+x-founders:
+- Joel F. Martin, Ph.D. (President & CEO)
+- Olivier Laurent, Ph.D. (Chief Scientific Officer)
+x-technology-targets:
+- BAG3
+- IFITM-2
+x-investors:
+- Canaan Partners
+- Sofinnova Investments
+- Indaco Venture Partners SGR
+- Vertis
+x-funding-raised: $9.5M
+x-website: http://www.intrepidabio.com
+x-website-status: unresolved (no DNS / registry "No match" as of 2026-07-19)
+x-entity-status: dormant/defunct
+x-has-api: false
+x-enrichment-note: >-
+  Enrichment pipeline ran 2026-07-19. No developer/API surface exists (biotech
+  therapeutics company, website offline), so no OpenAPI, MCP, well-known, packages,
+  or security artifacts could be searched, generated, or derived. Only the apis.yml
+  identity pass was completed from public research (Canaan, Fierce Biotech,
+  BioSpace, GlobeNewswire).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Oncology
+- Immuno-oncology
+- Innate Immunity
+- Monoclonal Antibodies
+- Cancer
+- Drug Discovery
+- Preclinical
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

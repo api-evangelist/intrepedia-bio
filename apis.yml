@@ -60,7 +60,7 @@ x-enrichment-note: >-
   or security artifacts could be searched, generated, or derived. Only the apis.yml
   identity pass was completed from public research (Canaan, Fierce Biotech,
   BioSpace, GlobeNewswire).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
